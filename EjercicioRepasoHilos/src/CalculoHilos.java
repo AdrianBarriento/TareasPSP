@@ -1,4 +1,6 @@
 import java.math.BigInteger;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class CalculoHilos extends Thread{
 	private int principio;
@@ -18,10 +20,5 @@ public class CalculoHilos extends Thread{
 				System.out.println(big);	
 			}
 		}
-		
 	}
-	
-	
-	
-
 }
